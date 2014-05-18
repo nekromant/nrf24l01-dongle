@@ -1,0 +1,272 @@
+# EESchema Netlist Version 1.1 created  Sun 13 Apr 2014 12:06:19 PM MSK
+(
+ ( /53497D65 SM0805 C1 27pF
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /53497D67 SM0805 C2 27pF
+  ( 1 N-000033 )
+  ( 2 GND )
+ )
+ ( /532EADD9 SM0805 C3 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /532EADD6 SM0805 C4 0.1uF
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /534A4521 SM0805 C5 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /53497D86 LED-0805 D1 LED
+  ( 1 /LED0 )
+  ( 2 N-000008 )
+ )
+ ( /53497DAF LED-0805 D2 LED
+  ( 1 /LED1 )
+  ( 2 N-000005 )
+ )
+ ( /53497DBB LED-0805 D3 LED
+  ( 1 /LED2 )
+  ( 2 N-000036 )
+ )
+ ( /53497DB6 LED-0805 D4 LED
+  ( 1 /LED3 )
+  ( 2 N-000004 )
+ )
+ ( /532EACD2/4FC0F82B SM1210 D1501 3v6
+  ( 1 GND )
+  ( 2 /usb/DM )
+ )
+ ( /532EACD2/4FC0F832 SM1210 D1502 3v6
+  ( 1 GND )
+  ( 2 /usb/DP )
+ )
+ ( /532EAC9F TQFP32 IC1 ATMEGA8-AI
+  ( 1 /usb/MCU_DP )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 N-000001 )
+  ( 8 N-000033 )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 /CE )
+  ( 14 /CSN )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /SCK )
+  ( 18 VCC )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 /LED0 )
+  ( 24 /LED1 )
+  ( 25 /LED2 )
+  ( 26 /LED3 )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 N-000025 )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 /usb/MCU_INT )
+ )
+ ( /532EACC5 pin_array_4x2 NRF_1 NRF24L01
+  ( 1 GND )
+  ( 2 +3.3V )
+  ( 3 /CE )
+  ( 4 /CSN )
+  ( 5 /SCK )
+  ( 6 /MOSI )
+  ( 7 /MISO )
+  ( 8 ? )
+ )
+ ( /53497F0C USB_A P1 CONN_USB
+  ( 1 VCC )
+  ( 2 /usb/DM )
+  ( 3 /usb/DP )
+  ( 4 GND )
+ )
+ ( /532EAD38 R4 R1 10k
+  ( 1 VCC )
+  ( 2 N-000025 )
+ )
+ ( /53497D89 SM0805 R2 R
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /53497DAE SM0805 R3 R
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /53497DBA SM0805 R4 R
+  ( 1 N-000036 )
+  ( 2 GND )
+ )
+ ( /53497DB7 SM0805 R5 R
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /532EACD2/4FC0F903 SM0805 R1501 1k5
+  ( 1 VCC )
+  ( 2 /usb/MCU_INT )
+ )
+ ( /532EACD2/4FC0F8A2 SM0805 R1502 68
+  ( 1 /usb/MCU_INT )
+  ( 2 /usb/DM )
+ )
+ ( /532EACD2/4FC0F89B SM0805 R1503 68
+  ( 1 /usb/MCU_DP )
+  ( 2 /usb/DP )
+ )
+ ( /532EADD0 SOT223 U1 AMS1117
+  ( 1 GND )
+  ( 2 +3.3V )
+  ( 3 VCC )
+ )
+ ( /53497D53 HC-49V X1 CRYSTAL
+  ( 1 N-000001 )
+  ( 2 N-000033 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1501
+ D?
+ SO*
+ SM*
+$endlist
+$component D1502
+ D?
+ SO*
+ SM*
+$endlist
+$component IC1
+ TQFP32
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1501
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1502
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1503
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
